@@ -10,7 +10,7 @@ namespace FactoryPatternExercise1
             bool input = false;
             do
             {
-                Console.WriteLine("Enter the amount of wheels for the vehicle that you would like to create");
+                Console.WriteLine("Let's build a new car! Enter the amount of wheels for the vehicle that you would like to create");
                 input = int.TryParse(Console.ReadLine(), out wheelCount);
 
             } while (input == false);

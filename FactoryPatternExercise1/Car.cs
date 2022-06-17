@@ -9,7 +9,8 @@ namespace FactoryPatternExercise1
 
         public void Drive()
         {
-            Console.WriteLine("This car is working properly.");
+            Console.WriteLine("You have chosen a car!");
+            Console.WriteLine("VROOOOM!!");
         }
     }
 }
